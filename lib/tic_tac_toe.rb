@@ -102,9 +102,10 @@ end
 # 
 
 # def play(board)
+    token = turn(board)
 #   turn = 0
 #   while turn < 9
-#     turn(board)
+#     token 
 #     turn += 1
 #   end 
 # end
