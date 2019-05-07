@@ -86,9 +86,9 @@ def draw?(board)
   !won?(board) && full?(board)
 end
 
-# def over?(board)
-#   won?(board) || full?(board) || draw?(board)
-# end
+def over?(board)
+  won?(board) || full?(board) || draw?(board)
+end
 
 # def winner(board)
 # if answer = won?(board)
