@@ -99,6 +99,11 @@ end
 end  
 
 def play(board)
-  turn(board)
-  
+  turn(board) until over?(board)
+    if won?(board)
+      puts "Winner #{winner(board)"
+    elsif drawl?(board)
+    puts "Drawl"
+  end 
 end 
+
