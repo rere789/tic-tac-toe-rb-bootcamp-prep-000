@@ -90,13 +90,13 @@ def over?(board)
   won?(board) || full?(board) || draw?(board)
 end
 
-# def winner(board)
-# if answer = won?(board)
-#   board[answer.first]
-# else
-#   nil
-# end
-# end  
+def winner(board)
+if answer = won?(board)
+  board[answer.first]
+else
+  nil
+end
+end  
 
 # Define your play method below
 # 
