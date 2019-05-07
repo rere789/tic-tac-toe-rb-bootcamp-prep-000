@@ -98,14 +98,6 @@ else
 end
 end  
 
-# Define your play method below
-# 
-
-# def play(board)
-    token = turn(board)
-#   turn = 0
-#   while turn < 9
-#     token 
-#     turn += 1
-#   end 
-# end
+def play(board)
+  input = gets
+end 
