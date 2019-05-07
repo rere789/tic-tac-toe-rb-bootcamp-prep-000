@@ -66,9 +66,9 @@ def current_player(board)
     end
   end
 
-# def full?(board)
-#   !board.any? { |x| x == " " }
-# end 
+def full?(board)
+  !board.any? { |x| x == " " }
+end 
   
 def won?(board)
   WIN_COMBINATIONS.detect do |arr| 
