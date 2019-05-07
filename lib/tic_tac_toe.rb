@@ -102,7 +102,7 @@ def play(board)
   turn(board) until over?(board)
     if won?(board)
       puts "Winner #{winner(board)}"
-    elsif drawl?(board)
+    elsif draw?(board)
   end 
 end 
 
