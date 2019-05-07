@@ -70,17 +70,17 @@ def current_player(board)
 #   !board.any? { |x| x == " " }
 # end 
   
-# def won?(board)
-#   WIN_COMBINATIONS.detect do |arr| 
-#   if board[arr[0]] == "X" && board[arr[1]] == "X" && board[arr[2]] == "X"
-#     arr
-#   elsif board[arr[0]] == "O" && board[arr[1]] == "O" && board[arr[2]] == "O"
-#     arr
-#   else
-#     false
-#   end
-# end 
-# end
+def won?(board)
+  WIN_COMBINATIONS.detect do |arr| 
+  if board[arr[0]] == "X" && board[arr[1]] == "X" && board[arr[2]] == "X"
+    arr
+  elsif board[arr[0]] == "O" && board[arr[1]] == "O" && board[arr[2]] == "O"
+    arr
+  else
+    false
+  end
+end 
+end
   
 # def draw?(board)
 #   !won?(board) && full?(board)
